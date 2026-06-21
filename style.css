@@ -432,15 +432,7 @@ a,
 }
 
 /* FEATURES */
-
-.feature-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,350px));
-    justify-content:center;
-    gap:20px;
-}
-
-.feature-card{
+.about-feature-card{
     background:var(--card);
     padding:20px;
     border-radius:15px;
@@ -448,7 +440,7 @@ a,
     transition:.3s ease;
 }
 
-.feature-card img{
+.about-feature-card img{
     width:100%;
     max-width:280px;
     height:220px;
@@ -458,7 +450,7 @@ a,
     margin-bottom:15px;
 }
 
-.feature-card:hover{
+.about-feature-card:hover{
     transform:translateY(-5px);
 }
 
@@ -599,3 +591,5 @@ a,
     }
 
 }
+
+
